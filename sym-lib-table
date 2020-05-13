@@ -1,0 +1,10 @@
+(sym_lib_table
+  (lib (name AVX)(type Legacy)(uri ${SYMBOLS}/AVX.lib)(options "")(descr ""))
+  (lib (name DiodesInc)(type Legacy)(uri ${SYMBOLS}/DiodesInc.lib)(options "")(descr ""))
+  (lib (name OnSemiconductor)(type Legacy)(uri ${SYMBOLS}/OnSemiconductor.lib)(options "")(descr ""))
+  (lib (name TaiwanAlpha)(type Legacy)(uri ${SYMBOLS}/TaiwanAlpha.lib)(options "")(descr ""))
+  (lib (name TexasInstruments)(type Legacy)(uri ${SYMBOLS}/TexasInstruments.lib)(options "")(descr ""))
+  (lib (name Yageo)(type Legacy)(uri ${SYMBOLS}/Yageo.lib)(options "")(descr ""))
+  (lib (name 258D-rescue)(type Legacy)(uri ${KIPRJMOD}/258D-rescue.lib)(options "")(descr ""))
+  (lib (name AnalogDevices)(type Legacy)(uri ${SYMBOLS}/AnalogDevices.lib)(options "")(descr ""))
+)
