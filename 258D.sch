@@ -715,7 +715,7 @@ F 3 "~" H 2075 2375 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Dunnington:Mod_Indicator_1-10_150mil M2
+L 258D-rescue:Mod_Indicator_1-10_150mil-Dunnington M2
 U 1 1 5E569A04
 P 5000 9000
 F 0 "M2" H 6275 9125 50  0000 L CNN
@@ -727,7 +727,7 @@ F 4 "DNP" H 5000 9000 50  0001 C CNN "Populate"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Dunnington:Serial_Box_150mil M3
+L 258D-rescue:Serial_Box_150mil-Dunnington M3
 U 1 1 5E56A955
 P 5000 9275
 F 0 "M3" H 6275 9375 50  0000 L CNN
@@ -739,7 +739,7 @@ F 4 "DNP" H 5000 9275 50  0001 C CNN "Populate"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Dunnington:Logo_150mil M1
+L 258D-rescue:Logo_150mil-Dunnington M1
 U 1 1 5E5A3AC1
 P 5000 8700
 F 0 "M1" H 6275 8825 50  0000 L CNN

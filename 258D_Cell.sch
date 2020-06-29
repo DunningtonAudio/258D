@@ -1646,7 +1646,7 @@ AR Path="/5D0F6500" Ref="C?"  Part="1"
 AR Path="/5D0750F6/5D0F6500" Ref="C101"  Part="1" 
 AR Path="/5D075473/5D0F6500" Ref="C201"  Part="1" 
 F 0 "C101" V 7600 2225 50  0000 L CNN
-F 1 "4n7" V 7500 2325 50  0000 C CNN
+F 1 "2n2" V 7500 2325 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 7550 2325 50  0001 C CNN
 F 3 "" H 7550 2475 50  0001 C CNN
 	1    7550 2475
@@ -2810,7 +2810,7 @@ Text Notes 13225 3250 0    50   ~ 0
 Text Notes 13250 4275 0    50   ~ 0
 ~~4.5Vp-p (Sine)
 Text Notes 13000 8800 0    50   ~ 0
-NOTES\n\nSelect R105/R205 for V/O scale other than 1.2 V/O\n\nTo match coarse frequency front panel scale R103/203 = 150k\nFor reduced range R103/203 = 180k\n\nSelect Q105/205 for VGS(off) of 1.13V for best sine shape\n\nShape select headers:\nConnect pins 1 & 2 for square\nConnect pins 2 & 3 for saw
+NOTES\n\nSelect R105/R205 for V/O scale other than 1.2 V/O\n\nTo match coarse frequency front panel scale R103/203 = 150k\nFor reduced range R103/203 = 180k\n\nSelect Q105/205 for VGS(off) of 1.13V for best sine shape\n\nShape select headers:\nConnect pins 1 & 2 for square\nConnect pins 2 & 3 for saw\n\nC101/C201 changed to 2n2 for improved tracking 20200629
 Wire Wire Line
 	9750 6100 9750 6200
 Wire Wire Line
