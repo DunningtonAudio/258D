@@ -1215,13 +1215,14 @@ F 3 "" H 8375 7650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TaiwanAlpha:POT VR?
+L 258D-rescue:POT-TaiwanAlpha VR?
 U 1 1 5D0F643A
 P 8375 7400
 AR Path="/5AC1D4ED/5D0F643A" Ref="VR?"  Part="1" 
 AR Path="/5AC1D918/5D0F643A" Ref="VR?"  Part="1" 
 AR Path="/5D0750F6/5D0F643A" Ref="VR106"  Part="1" 
 AR Path="/5D075473/5D0F643A" Ref="VR206"  Part="1" 
+AR Path="/5D0F643A" Ref="VR106"  Part="1" 
 F 0 "VR106" V 8200 7400 50  0000 C CNN
 F 1 "100kB" V 8275 7400 50  0000 C CNN
 F 2 "Alpha_Potentiometers:RV16AF-41-(L)R1-XXX" H 8375 7400 50  0001 C CNN
@@ -1380,15 +1381,16 @@ F 3 "" H 10200 5300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L OnSemiconductor:MMBFJ201 Q?
+L 258D-rescue:MMBFJ201-OnSemiconductor Q?
 U 1 1 5D0F6488
 P 9850 5650
 AR Path="/5AC1D4ED/5D0F6488" Ref="Q?"  Part="1" 
 AR Path="/5AC1D918/5D0F6488" Ref="Q?"  Part="1" 
 AR Path="/5D0750F6/5D0F6488" Ref="Q104"  Part="1" 
 AR Path="/5D075473/5D0F6488" Ref="Q204"  Part="1" 
+AR Path="/5D0F6488" Ref="Q104"  Part="1" 
 F 0 "Q104" V 9800 5500 50  0000 R CNN
-F 1 "MMBF5484" V 9700 5500 50  0000 R CNN
+F 1 "MMBF5485" V 9700 5500 50  0000 R CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 10050 5575 50  0001 L CIN
 F 3 "" H 9850 5600 50  0001 L CNN
 	1    9850 5650
@@ -1455,13 +1457,14 @@ F 3 "" H 10200 4350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L OnSemiconductor:MMBFJ201 Q?
+L 258D-rescue:MMBFJ201-OnSemiconductor Q?
 U 1 1 5D0F64AC
 P 10100 4700
 AR Path="/5AC1D4ED/5D0F64AC" Ref="Q?"  Part="1" 
 AR Path="/5AC1D918/5D0F64AC" Ref="Q?"  Part="1" 
 AR Path="/5D0750F6/5D0F64AC" Ref="Q105"  Part="1" 
 AR Path="/5D075473/5D0F64AC" Ref="Q205"  Part="1" 
+AR Path="/5D0F64AC" Ref="Q105"  Part="1" 
 F 0 "Q105" H 10275 4725 50  0000 L CNN
 F 1 "MMBFJ201" H 10275 4650 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 10300 4625 50  0001 L CIN
@@ -1500,13 +1503,14 @@ F 3 "" H 8600 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L OnSemiconductor:MMBT3906 Q?
+L 258D-rescue:MMBT3906-OnSemiconductor Q?
 U 1 1 5D0F64C4
 P 8900 2100
 AR Path="/5AC1D4ED/5D0F64C4" Ref="Q?"  Part="1" 
 AR Path="/5AC1D918/5D0F64C4" Ref="Q?"  Part="1" 
 AR Path="/5D0750F6/5D0F64C4" Ref="Q103"  Part="1" 
 AR Path="/5D075473/5D0F64C4" Ref="Q203"  Part="1" 
+AR Path="/5D0F64C4" Ref="Q103"  Part="1" 
 F 0 "Q103" H 9100 2075 50  0000 L CNN
 F 1 "MMBT3906" H 9100 2150 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 9100 2025 50  0001 L CIN
@@ -1605,7 +1609,7 @@ F 3 "" H 8600 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L DiodesInc:DMMT3904W Q?
+L 258D-rescue:DMMT3904W-DiodesInc Q?
 U 2 1 5D0F64F4
 P 8700 2950
 AR Path="/5AC1D4ED/5D0F64F4" Ref="Q?"  Part="2" 
@@ -1621,7 +1625,7 @@ F 3 "" H 8700 2950 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L DiodesInc:DMMT3904W Q?
+L 258D-rescue:DMMT3904W-DiodesInc Q?
 U 1 1 5D0F64FA
 P 8150 2950
 AR Path="/5AC1D4ED/5D0F64FA" Ref="Q?"  Part="1" 
@@ -1938,13 +1942,14 @@ F 3 "" H 3050 5550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TaiwanAlpha:POT VR?
+L 258D-rescue:POT-TaiwanAlpha VR?
 U 1 1 5D0F657E
 P 3050 5400
 AR Path="/5AC1D4ED/5D0F657E" Ref="VR?"  Part="1" 
 AR Path="/5AC1D918/5D0F657E" Ref="VR?"  Part="1" 
 AR Path="/5D0750F6/5D0F657E" Ref="VR105"  Part="1" 
 AR Path="/5D075473/5D0F657E" Ref="VR205"  Part="1" 
+AR Path="/5D0F657E" Ref="VR105"  Part="1" 
 F 0 "VR105" V 2875 5400 50  0000 C CNN
 F 1 "100kA" V 2950 5400 50  0000 C CNN
 F 2 "Alpha_Potentiometers:RV16AF-41-(L)R1-XXX" H 3050 5400 50  0001 C CNN
@@ -2013,7 +2018,7 @@ F 3 "" H 3550 4300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L DiodesInc:DMMT3906W Q?
+L 258D-rescue:DMMT3906W-DiodesInc Q?
 U 1 1 5D0F659C
 P 5050 6150
 AR Path="/5AC1D4ED/5D0F659C" Ref="Q?"  Part="1" 
@@ -2029,7 +2034,7 @@ F 3 "" H 5050 6150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L DiodesInc:DMMT3906W Q?
+L 258D-rescue:DMMT3906W-DiodesInc Q?
 U 2 1 5D0F65A2
 P 4650 6150
 AR Path="/5AC1D4ED/5D0F65A2" Ref="Q?"  Part="2" 
@@ -2136,13 +2141,14 @@ F 3 "" H 3000 3600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L TaiwanAlpha:POT VR?
+L 258D-rescue:POT-TaiwanAlpha VR?
 U 1 1 5D0F65D2
 P 2650 4300
 AR Path="/5AC1D4ED/5D0F65D2" Ref="VR?"  Part="1" 
 AR Path="/5AC1D918/5D0F65D2" Ref="VR?"  Part="1" 
 AR Path="/5D0750F6/5D0F65D2" Ref="VR102"  Part="1" 
 AR Path="/5D075473/5D0F65D2" Ref="VR202"  Part="1" 
+AR Path="/5D0F65D2" Ref="VR102"  Part="1" 
 F 0 "VR102" V 2475 4300 50  0000 C CNN
 F 1 "100kB" V 2550 4300 50  0000 C CNN
 F 2 "Alpha_Potentiometers:RD901F-40-00D" H 2650 4300 50  0001 C CNN
@@ -2151,13 +2157,14 @@ F 3 "" H 2650 4300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TaiwanAlpha:POT VR?
+L 258D-rescue:POT-TaiwanAlpha VR?
 U 1 1 5D0F65D8
 P 2650 3600
 AR Path="/5AC1D4ED/5D0F65D8" Ref="VR?"  Part="1" 
 AR Path="/5AC1D918/5D0F65D8" Ref="VR?"  Part="1" 
 AR Path="/5D0750F6/5D0F65D8" Ref="VR101"  Part="1" 
 AR Path="/5D075473/5D0F65D8" Ref="VR201"  Part="1" 
+AR Path="/5D0F65D8" Ref="VR101"  Part="1" 
 F 0 "VR101" V 2475 3600 50  0000 C CNN
 F 1 "100kB" V 2550 3600 50  0000 C CNN
 F 2 "Alpha_Potentiometers:RV16AF-41-(L)R1-XXX" H 2650 3600 50  0001 C CNN
@@ -2271,13 +2278,14 @@ F 3 "" H 4050 1800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L TaiwanAlpha:POT VR?
+L 258D-rescue:POT-TaiwanAlpha VR?
 U 1 1 5D0F6608
 P 3000 2950
 AR Path="/5AC1D4ED/5D0F6608" Ref="VR?"  Part="1" 
 AR Path="/5AC1D918/5D0F6608" Ref="VR?"  Part="1" 
 AR Path="/5D0750F6/5D0F6608" Ref="VR104"  Part="1" 
 AR Path="/5D075473/5D0F6608" Ref="VR204"  Part="1" 
+AR Path="/5D0F6608" Ref="VR104"  Part="1" 
 F 0 "VR104" V 2900 2950 50  0000 C CNN
 F 1 "100kB" V 2825 2950 50  0000 C CNN
 F 2 "Alpha_Potentiometers:RV16AF-41-(L)R1-XXX" H 3000 2950 50  0001 C CNN
@@ -2286,13 +2294,14 @@ F 3 "" H 3000 2950 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L TaiwanAlpha:POT VR?
+L 258D-rescue:POT-TaiwanAlpha VR?
 U 1 1 5D0F660E
 P 3000 2300
 AR Path="/5AC1D4ED/5D0F660E" Ref="VR?"  Part="1" 
 AR Path="/5AC1D918/5D0F660E" Ref="VR?"  Part="1" 
 AR Path="/5D0750F6/5D0F660E" Ref="VR103"  Part="1" 
 AR Path="/5D075473/5D0F660E" Ref="VR203"  Part="1" 
+AR Path="/5D0F660E" Ref="VR103"  Part="1" 
 F 0 "VR103" V 2900 2300 50  0000 C CNN
 F 1 "100kB" V 2825 2300 50  0000 C CNN
 F 2 "Alpha_Potentiometers:RV16AF-41-(L)R1-XXX" H 3000 2300 50  0001 C CNN
@@ -2810,7 +2819,7 @@ Text Notes 13225 3250 0    50   ~ 0
 Text Notes 13250 4275 0    50   ~ 0
 ~~4.5Vp-p (Sine)
 Text Notes 13000 8800 0    50   ~ 0
-NOTES\n\nSelect R105/R205 for V/O scale other than 1.2 V/O\n\nTo match coarse frequency front panel scale R103/203 = 150k\nFor reduced range R103/203 = 180k\n\nSelect Q105/205 for VGS(off) of 1.13V for best sine shape\n\nShape select headers:\nConnect pins 1 & 2 for square\nConnect pins 2 & 3 for saw\n\nC101/C201 changed to 2n2 for improved tracking 20200629
+NOTES\n\nSelect R105/R205 for V/O scale other than 1.2 V/O\n\nTo match coarse frequency front panel scale R103/203 = 150k\nFor reduced range R103/203 = 180k\n\nSelect Q105/205 for VGS(off) of 0.8V - 1.2V. Ideal value is 1.13V\nfor best sine shape\n\nShape select headers:\nConnect pins 1 & 2 for square\nConnect pins 2 & 3 for saw\n\nC101/C201 changed to 2n2 for improved tracking 20200629
 Wire Wire Line
 	9750 6100 9750 6200
 Wire Wire Line

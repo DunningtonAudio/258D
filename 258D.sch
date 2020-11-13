@@ -100,7 +100,7 @@ Wire Wire Line
 Wire Wire Line
 	5750 7500 6000 7500
 $Comp
-L AnalogDevices:ADR01 U1
+L 258D-rescue:ADR01-AnalogDevices U1
 U 1 1 5D02CBA7
 P 2050 7225
 F 0 "U1" H 2050 7640 50  0000 C CNN
